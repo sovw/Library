@@ -1004,7 +1004,7 @@ local defaults; do
         
         bgcolor        = Color3.fromRGB(25, 25, 25);
         boxcolor       = Color3.fromRGB(40, 40, 40);
-        btncolor       = Color3.fromRGB(25, 25, 25);
+        btncolor       = Color3.fromRGB(40, 40, 40);
         dropcolor      = Color3.fromRGB(40, 40, 40);
         sectncolor     = Color3.fromRGB(30, 30, 30);
         bordercolor    = Color3.fromRGB(60, 60, 60);
