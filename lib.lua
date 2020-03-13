@@ -200,7 +200,7 @@ local defaults; do
                     Name = name;
                     Text = "\r" .. name;
                     BackgroundTransparency = 1;
-                    TextColor3 = Color3.fromRGB(255, 255, 255);
+                    TextColor3 = library.options.textcolor;
                     Position = UDim2.new(0, 5, 0, 0);
                     Size     = UDim2.new(1, -5, 1, 0);
                     TextXAlignment = Enum.TextXAlignment.Left;
@@ -215,7 +215,7 @@ local defaults; do
                         Name = 'Checkmark';
                         Size = UDim2.new(0, 20, 0, 20);
                         Position = UDim2.new(1, -25, 0, 4);
-                        TextColor3 = Color3.fromRGB(255, 240, 77);
+                        TextColor3 = library.options.textcolor;
                         BackgroundColor3 = library.options.bgcolor;
                         BorderColor3 = library.options.bordercolor;
                         TextStrokeTransparency = library.options.textstroke;
