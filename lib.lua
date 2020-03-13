@@ -86,14 +86,6 @@ local defaults; do
                     TextStrokeColor3 = library.options.titlestrokecolor;
                     ZIndex = 3;
                 });
-                library:Create("Frame", {
-                    Name = 'Underline';
-                    Size = UDim2.new(1, 0, 0, 2);
-                    Position = UDim2.new(0, 0, 1, -2);
-                    BackgroundColor3 = (options.underlinecolor ~= "rainbow" and options.underlinecolor or Color3.new());
-                    BorderSizePixel = 0;
-                    ZIndex = 3;
-                });
                 library:Create('Frame', {
                     Name = 'container';
                     Position = UDim2.new(0, 0, 1, 0);
@@ -107,10 +99,6 @@ local defaults; do
                     })
                 });
             })
-            
-            if options.underlinecolor == "rainbow" then
-                table.insert(library.rainbowtable, newWindow:FindFirstChild('Underline'))
-            end
 
             local window = setmetatable({
                 count = 0;
