@@ -200,7 +200,7 @@ local defaults; do
                     Name = name;
                     Text = "\r" .. name;
                     BackgroundTransparency = 1;
-                    TextColor3 = Color3.fromRGB(255, 240, 77);
+                    TextColor3 = textcolor;
                     Position = UDim2.new(0, 5, 0, 0);
                     Size     = UDim2.new(1, -5, 1, 0);
                     TextXAlignment = Enum.TextXAlignment.Left;
