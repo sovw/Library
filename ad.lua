@@ -1034,7 +1034,7 @@ local defaults; do
 
         textcolor      = Color3.fromRGB(255, 255, 255);
 		togglecolor    = Color3.fromRGB(255, 240, 77);
-        titletextcolor = Color3.fromRGB(255, 240, 77);
+        titletextcolor = Color3.fromRGB(255, 255, 255);
 
         placeholdercolor = Color3.fromRGB(255, 255, 255);
         titlestrokecolor = Color3.fromRGB(0, 0, 0);
