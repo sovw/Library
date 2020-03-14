@@ -4,7 +4,8 @@ local screengui = Instance.new("ScreenGui",game:GetService("CoreGui"))
 local counter = 10
 function library:CreateWindow(name)
 	local a = Instance.new("TextButton",screengui)
-	a.Size = UDim2.new(0, 189,0, 32)
+	a.Size = UDim2.new(0, 191,0, 45)
+	a.TextColor3 = Color3.fromRGB(255, 255, 255)
 	a.Text = name
 	a.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 	a.BorderSizePixel = 0
