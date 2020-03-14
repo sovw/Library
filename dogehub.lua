@@ -100,7 +100,7 @@ function library:CreateWindow(name,description,framename)
 end
 
 function library:Button(Text, Callback)
-	local btn = Instance.new("TextButton",screengui)
+	local btn = Instance.new("TextButton",ui)
     btn.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
     btn.TextColor3 = Color3.fromRGB(255, 255, 255)
     btn.TextSize = 18
