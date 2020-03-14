@@ -1,6 +1,5 @@
 local library = {}
 
-local screengui = Instance.new("ScreenGui",game:GetService("CoreGui"))
 _G.flags = {}
 local flags = 0
 local count = 1
