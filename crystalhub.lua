@@ -10,8 +10,8 @@ function library:CreateWindow(text)
    a.Size = UDim2.new(0, 189,0, 32)
    a.TextColor3 = Color3.fromRGB(255,255,255)
    a.Text = "  " .. text
-   a.Position = UDim2.new(0,counter,0,10)
-   counter = counter + 205
+   a.Position = UDim2.new(0,pos,0,10)
+   pos = pos + 205
 end
 
 return libary
