@@ -16,7 +16,7 @@ function library:CreateWindow(name,description,framename)
 	a.BackgroundColor3 = Color3.fromRGB(35,35,35)
 	a.TextColor3 = Color3.fromRGB(255,255,255)
 	a.Text = "  " .. name
-	a.TextSize = 18
+	a.TextSize = 20
 	a.Font = Enum.Font.SourceSans
 	a.Position = UDim2.new(0,10,0,pos)
 	a.ZIndex = 2
@@ -45,8 +45,8 @@ function library:CreateWindow(name,description,framename)
 	d.BackgroundColor3 = Color3.fromRGB(45,45,45)
 	d.TextColor3 = Color3.fromRGB(255,255,255)
 	d.Text = framename
-	d.TextSize = 22
-	d.Font = Enum.Font.Code
+	d.TextSize = 20
+	d.Font = Enum.Font.SourceSans
 	d.Position = UDim2.new(0,0,0,0)
 	d.ZIndex = 1
 	currentui = c
@@ -86,10 +86,10 @@ function library:CreateWindow(name,description,framename)
 				size = size + 32
 			end
 			wait(0.3)
-			c:TweenSize(UDim2.new(0,189,0,size),"InOut","Quint",0.3)
+			c:TweenSize(UDim2.new(0,189,0,size),"Out","Quint",0.3)
 			open = true
 		else
-			c:TweenSize(UDim2.new(0,189,0,32),"InOut","Quint",0.3)
+			c:TweenSize(UDim2.new(0,189,0,32),"Out","Quint",0.3)
 			wait(0.3)
 			c:TweenPosition(UDim2.new(0,10,0,a.Position.Y.Offset),"Out","Quint",0.3)
 			open = false
