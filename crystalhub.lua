@@ -2,9 +2,6 @@ local library = {}
 
 local pos = 10
 local ui = Instance.new("ScreenGui",game:GetService("CoreGui"))
-
-flocal screengui = Instance.new("ScreenGui",game:GetService("CoreGui"))
-local counter = 10
 function library:CreateWindow(text)
     local a = Instance.new("TextButton",ui)
     a.Size = UDim2.new(0, 189,0, 32)
