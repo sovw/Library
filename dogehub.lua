@@ -1,7 +1,7 @@
 local library = {}
 
 local screengui = Instance.new("ScreenGui",game:GetService("CoreGui"))
-local counter = 15
+local counter = 10
 function library:CreateWindow(name)
 	local a = Instance.new("TextButton",screengui)
 	a.Size = UDim2.new(0, 189,0, 32)
@@ -13,7 +13,7 @@ function library:CreateWindow(name)
 	a.Font = Enum.Font.SourceSans
 	a.TextXAlignment = "Left"
 	a.Position = UDim2.new(0,10,0,counter)
-    counter = counter + 30
+    counter = counter + 55
 end
 
 return library
