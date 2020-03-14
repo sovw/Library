@@ -41,7 +41,7 @@ function library:CreateWindow(text,description,frametext)
     d.TextSize = 18
     d.Font = Enum.Font.SourceSans
     d.ZIndex = 1
-    a.MouseHover:Connect(function()
+    a.MouseEnter:Connect(function()
         b.TweenPosition(UDim2.new(0,10+189+5,0,a.Position.Y.Offset),"Out","Quint",0.3)
     end)
     
