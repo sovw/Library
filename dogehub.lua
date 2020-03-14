@@ -13,7 +13,7 @@ function library:CreateWindow(name)
 	a.Font = Enum.Font.SourceSans
 	a.TextXAlignment = "Left"
 	a.Position = UDim2.new(0,10,0,counter)
-    counter = counter + 55
+    counter = counter + 35
 end
 
 return library
