@@ -9,7 +9,7 @@ function library:CreateWindow(name)
 	a.Text = name
 	a.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 	a.BorderSizePixel = 0
-	a.TextSize = 18
+	a.TextSize = 21
 	a.Font = Enum.Font.SourceSans
 	a.TextXAlignment = "Left"
 	a.Position = UDim2.new(0,10,0,counter)
