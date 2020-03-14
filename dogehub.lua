@@ -5,7 +5,7 @@ local flags = 0
 local count = 1
 local itemcount = 32
 local pos = 10
-local screengui = Instance.new("ScreenGui",game.CoreGui)
+local ui = Instance.new("ScreenGui",game.CoreGui)
 local currentui = Instance
 
 function library:CreateWindow(name,description,framename)
