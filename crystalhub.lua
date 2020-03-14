@@ -14,4 +14,4 @@ function library:CreateWindow(text)
    pos = pos + 205
 end
 
-return libary
+return library
